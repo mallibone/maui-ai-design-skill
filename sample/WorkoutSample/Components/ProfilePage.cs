@@ -1,6 +1,5 @@
 using Microsoft.Maui;
-using WorkoutSample.Helpers;
-using WorkoutSample.Resources.Styles;
+using Microsoft.Maui.Graphics;
 
 namespace WorkoutSample.Components;
 
@@ -9,24 +8,18 @@ class ProfilePage : Component
     public override VisualNode Render()
         => ContentPage(
             VStack(
-                Label(IconFont.Person)
-                    .FontFamily(IconFont.FontFamily)
-                    .FontSize(64)
-                    .TextColor(ApplicationTheme.BrandPrimary)
-                    .HCenter(),
                 Label("Your profile")
-                    .FontSize(22)
-                    .FontAttributes(FontAttributes.Bold)
-                    .TextColor(ApplicationTheme.OnBackground)
+                    .FontSize(24)
+                    .TextColor(Colors.White)
                     .HCenter(),
                 Label("Stats, history and settings live here.")
                     .FontSize(14)
-                    .TextColor(ApplicationTheme.OnBackgroundMuted)
+                    .TextColor(Colors.White)
                     .HCenter()
             )
-            .Spacing(12)
+            .Spacing(10)
             .VCenter()
-            .Padding(24)
+            .Padding(20)
         )
-        .BackgroundColor(ApplicationTheme.PageBackground);
+        .BackgroundColor(Colors.CornflowerBlue);
 }
