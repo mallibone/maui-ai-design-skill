@@ -6,8 +6,10 @@ decent initial UI design for a .NET MAUI app - so your apps stop looking like
 developer art.
 
 Companion code for the blog post
-[*From developer art to good looking apps*](https://mallibone.com/2026/07/15/maui-ai-design-skill.html)
+[*From developer art to good looking apps*](https://mallibone.com/post/maui-ai-design-skill)
 (MAUI UI July 2026).
+
+![The workout sample before and after the skill: a CornflowerBlue developer-art screen next to a warm, coherent, icon-rich redesign.](docs/before-after.png)
 
 ## What's here
 
